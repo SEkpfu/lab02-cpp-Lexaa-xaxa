@@ -8,7 +8,7 @@ cout<<"x=", cin>> x;
     //a)
    
         if(x<=-2) {cout<<"1.f(x)= "<< 0 <<endl;}
-        else if(x>0) {cout<<"1.f(x)= "<<1/((x*x)+4*x-5)<<endl;}
+        else if(x>10) {cout<<"1.f(x)= "<<1/((x*x)+4*x-5)<<endl;}
         else {cout<<"1.f(x)="<<(x*x)+4*x+5<<endl;}
     //b)
   

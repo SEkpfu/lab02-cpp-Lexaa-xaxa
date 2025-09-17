@@ -11,9 +11,9 @@ cout<<"Введите два числа: "<<endl<<"x=", cin>>x;
 cout<<"y=", cin>>y, cout<<endl;
 cout<<"Введите нужную операцию: ", cin>>z, cout<<endl;
     switch(z) {
-        case '*': cout<<"x*y="<<x*y; break;
-        case '+': cout<<"x+y="<<x+y; break;
-        case '-': cout<<"x-y"<<x-y; break;
+        case '*': cout<<"x*y= "<<x*y; break;
+        case '+': cout<<"x+y= "<<x+y; break;
+        case '-': cout<<"x-y= "<<x-y; break;
     }
 
 return 0;}

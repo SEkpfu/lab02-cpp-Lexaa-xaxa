@@ -15,19 +15,19 @@ summ=0;
 if(x>10){summ=summ+x;}
 if(y>10){summ=summ+y;}
 if(z>10){summ=summ+z;}
-cout<<"Сумма чисел больше 10: "<<summ;
+cout<<"Сумма чисел больше 10: "<<summ<<endl;
 //b)
 int kolvo;
 kolvo=0;
 if (x%2==0) {kolvo= kolvo+1;}
 if (y%2==0) {kolvo=kolvo+1;}
 if (z%2==0) {kolvo= kolvo+1;}
-cout<<"Количество четных чисел: "<<kolvo;
+cout<<"Количество четных чисел: "<<kolvo<<endl;
 //c)
-cout<<"Среднее арифметическое число: "<<(x+y+z)/3;
-if ((y>x&&x>z)||(z>x&&x>y)) {cout<<"Среднее число"<<x;}
-else if ((x>y&&y>z)||(z>y&&y>y)) {cout<<"Среднее число"<<y;}
-else if ((x>z&&z>y)||(y>z&&z>x)) {cout<<"Среднее число"<<z;}
+cout<<"Среднее арифметическое число: "<<(x+y+z)/3<<endl;
+if ((y>x&&x>z)||(z>x&&x>y)) {cout<<"Среднее число: "<<x<<endl;}
+else if ((x>y&&y>z)||(z>y&&y>y)) {cout<<"Среднее число: "<<y<<endl;}
+else if ((x>z&&z>y)||(y>z&&z>x)) {cout<<"Среднее число: "<<z<<endl;}
 //d)
 if(x<y&&x<z) {cout<<"Первое число наименьшее";}
 else if(y<x&&y<z) {cout<<"Второе число наименьшее";}
